@@ -1,0 +1,12 @@
+---
+execution:
+- concurrency: 10
+  hold-for: 2m
+  scenario: Thread Group
+scenarios:
+  Thread Group:
+    requests:
+    - label: baidu
+    method: GET
+    url: https://www.baidu.com        
+
