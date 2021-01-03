@@ -5,8 +5,8 @@ scenarios:
     script: 'baidu_search.jmx'
 
 reporting:
-- moudle: final-stats
-- moudle: console
+- module: final-stats
+- module: console
 
       
 
