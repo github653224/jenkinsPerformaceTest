@@ -1,7 +1,7 @@
 execution:
 - scenario: baidu_search
 scenarios:
-  sample1:
+  baidu_search:
     script: 'baidu_search.jmx'
 
 reporting:
