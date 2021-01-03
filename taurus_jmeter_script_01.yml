@@ -1,12 +1,12 @@
----
 execution:
-- concurrency: 10
-  hold-for: 2m
-  scenario: Thread Group
+- scenario: baidu
 scenarios:
-  Thread Group:
-    requests:
-    - label: baidu
-    method: GET
-    url: https://www.baidu.com        
+  sample1:
+    script: 'baidu_search.jmx'
+
+reporting:
+- moudle: final-stats
+- moudle: console
+
+      
 
